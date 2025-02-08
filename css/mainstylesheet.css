@@ -1,0 +1,1133 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: lime;
+    background-image: url(/img/green_purple_neon_light_lines_abstraction_4k_hd_abstract-3840x2160.jpg);
+
+
+
+}
+
+main {
+    flex: 1; 
+    
+}
+
+footer {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+.logo01 {
+    width: 200%;
+}
+.logo {
+    width: 100%;
+    animation: shrinkLogo 3s forwards ease-in;
+}
+
+/* Logo Animation */
+.logo-wrapper {
+    height: 7.1%;
+    width: 4.5%;
+    border: 2px solid transparent;
+
+    border-radius: 51%;
+    left: 6%;
+    top: 1%;
+
+}
+
+
+
+
+
+
+/* Shrink the Logo home page*/
+@keyframes shrinkLogo {
+    0% {
+        width: 50%;
+        place-self: anchor-center;
+        position: fixed;
+        rotate: 180deg;
+
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    40% {rotate: 360deg;
+        opacity: 1;
+    }
+
+    50% {
+        rotate: 360deg;
+        opacity: 0;
+    }
+
+    60% {
+        rotate: 360deg;
+        opacity: 0;
+        
+       
+    }
+
+    65% {opacity: 0;}
+
+    70% {
+        opacity: 0;
+        rotate: 360deg;
+        place-self: anchor-center;
+        width: 50%;
+    }
+
+    80% {
+        rotate: 0deg;
+        opacity: 0;
+        width: 10%;
+        position: fixed;
+        left: 5.1%;
+        top: -0.5%;
+    }
+
+
+    90% {
+        opacity: 0;
+
+        left: 5.1%;
+        top: -0.5%;
+    }
+
+    100% {
+        opacity: 1;
+        width: 10%;
+        position: absolute;
+        left: 5.1%;
+        top: -0.5%;
+
+    }
+}
+
+
+
+
+
+
+
+.navigatie {
+    display: flex;
+
+    padding: 10px 20px;
+    justify-content: center;
+    margin-inline-start: auto;
+
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    display: flex;
+    padding: 20px 40px 20px 20px;
+    align-content: center;
+    white-space: nowrap;
+
+}
+
+nav {
+    display: flex;
+
+
+}
+
+
+
+li a {
+    font-size: x-large;
+    justify-content: center;
+    align-content: center;
+    color: ghostwhite;
+    text-decoration: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    /* Content (Revealed After Animation) */
+    animation: showContent 1s forwards 2s;
+
+}
+
+.button {
+
+
+    display: flex;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+button {
+    justify-self: start;
+    margin-left: 5%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+}
+
+
+b {
+    color: blueviolet;
+}
+
+#Hire-me {
+    padding: 20px, 10px, 20px, 10px;
+    justify-content: center;
+    background-color: transparent;
+    color: aliceblue;
+
+}
+
+#Hire-me:hover {
+    background-color: darkviolet;
+}
+
+#see-projects {
+
+    color: blueviolet;
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+#see-projects:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#see-projects a {
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+#Introduction {
+
+    margin-left: 5%;
+    margin-top: 10%;
+    display: grid;
+    max-width: 40%;
+    color: aliceblue;
+}
+
+#introduction h1 {
+    font-size: xx-large;
+}
+
+#career {
+    font-size: x-large;
+    color: aliceblue;
+
+
+}
+
+#little-introduction {
+    margin-top: 14%;
+    text-align: center;
+    white-space: pre-line;
+    font-size: 20px;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+@keyframes showContent {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes little-preview {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) rotate(180deg);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1) rotate(360deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: skew(-2deg, -1deg);
+    }
+}
+
+/*----------------------------------------ABOUTME----------------------------------------------------------------*/
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+
+
+}
+
+.skills-container {
+    border: 3px solid black;
+    justify-items: center;
+    place-self: end;
+    width: 10%;
+    margin-right: 1%;
+    color: oldlace;
+    margin-top: 5%;
+}
+
+.skills-container h1 {
+
+    color: oldlace;
+}
+
+
+.skills {
+    display: flex;
+    border: 2px solid;
+    width: 95%;
+    HEIGHT: 45px;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
+    flex-direction: column;
+
+}
+
+.skills:hover {
+    transform: matrix(2, 0, 0, 2, -393, -2) ease-in;
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    .hidden01 {
+        visibility: visible;
+    }
+
+}
+
+.hidden01 {
+    visibility: hidden;
+}
+
+.timeline {
+    position: relative;
+    width: 15%;
+    color: lightslategray;
+
+}
+
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 49px;
+    top: 2px;
+    width: 3px;
+    height: 224%;
+    background-color: white;
+}
+
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+
+.timeline-content {
+
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    margin-left: 80px;
+    width: 65%;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 50px;
+    color: bisque;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    justify-items: center;
+    margin-left: 47%;
+    margin-top: 22%;
+    margin-bottom: 5%;
+
+}
+
+.resume a:hover {
+    background-color: darkviolet;
+}
+
+/*----------------------------------------services----------------------------------------------------------------*/
+#Website-d {
+    display: flex;
+    margin: 2%;
+}
+
+.Website-design {
+    display: flex;
+    border: 3px solid;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 30%;
+    justify-items: center;
+    margin: 2% 2% auto;
+    padding: 1% 1% 1% 3%;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.app-design {
+    border: 3px solid;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 30%;
+    justify-items: center;
+    margin: 2% 2% auto;
+    padding: 1% 1% 1% 3%;
+    background-color: transparent;
+    margin: 2%;
+}
+
+.database-design {
+    border: 3px solid;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    width: 30%;
+    justify-items: center;
+    margin: 2% 2% auto;
+    padding: 1% 1% 1% 3%;
+    background-color: transparent;
+    display: flex;
+}
+
+#services {
+    margin-left: 11%;
+    
+}
+
+.Website-design:hover+.preview-box {
+    animation: little-preview 3S forwards ease-in;
+    pointer-events: auto;
+}
+
+#test {
+    color: white;
+}
+
+/*----------------------------------------previewBox----------------------------------------------------------------*/
+
+.preview-box {
+
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 50%;
+    height: 44em;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    overflow: hidden;
+
+
+
+}
+
+.preview-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    /* Dark shadow color */
+    top: 20px;
+    left: 20px;
+
+
+    filter: blur(15px);
+    /* Softens the shadow */
+    z-index: -1;
+    /* Places it behind the preview box */
+    border-radius: 5px;
+    opacity: 0.6;
+    /* Light shadow for realism */
+}
+
+.browser-bar {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    background-color: #ccc;
+    border-bottom: 1px solid #aaa;
+    justify-content: end;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.website-animation {
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    width: 80%;
+    height: 20px;
+    background: #333;
+    margin: 10px auto;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    height: 480%;
+    background: #888;
+    font-size: x-small;
+}
+
+.main-content {
+    flex: 1;
+    height: 450%;
+    background: #fff;
+    margin-left: 10px;
+    font-size: x-small;
+    color: black;
+}
+
+.footer {
+    width: 90%;
+    height: 20px;
+    background: #333;
+    margin: 10px auto;
+    margin-top: 30em;
+}
+
+/*----------------------------------------previewBox-App----------------------------------------------------------------*/
+.app-preview {
+    display: flex;
+    gap: 162%;
+}
+
+.app-design:hover+.app-little-preview {
+    animation: little-preview 3S forwards ease-in;
+    pointer-events: auto;
+    box-shadow: 13px 14px 1px black;
+    margin: 1% 60%;
+
+}
+
+.app-little-preview {
+    position: fixed;
+    border: 3px solid black;
+    width: 22%;
+    height: 43em;
+    justify-items: center;
+    margin-left: 59%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+    top: 15%;
+    opacity: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.phone-notch {
+    position: absolute;
+    justify-items: center;
+    width: 30%;
+    height: 2%;
+    background: black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    justify-self: anchor-center;
+}
+
+.app-screen {
+    border: 1px solid white;
+    background-color: midnightblue;
+    width: 98%;
+    border-radius: 5%;
+    height: 99%;
+    position: absolute;
+    margin-left: 0.7%;
+}
+
+.app-header {
+    margin-top: 140%;
+    border: 2px solid black;
+    width: 58%;
+    height: 710%;
+    border-radius: 25%;
+    align-content: center;
+    padding-left: 26%;
+    box-shadow:
+        0 -5px 50px #fff,
+        0 6px 50px red,
+        0 6px 50px violet,
+        0 -7px 50px blue;
+    animation: infinite-loop 1.5S infinite ease-out;
+}
+
+.app-content {
+    padding: 10%;
+    margin: 40%;
+}
+
+@keyframes infinite-loop {
+    0% {
+        transform: rotateZ(1deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+.app-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Login {
+    background-color: black;
+    text-align: center;
+    width: 150%;
+}
+
+#Password {
+    background-color: black;
+    text-align: center;
+    width: 150%;
+}
+
+.app-button {
+    width: 150%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 13%;
+}
+
+/*----------------------------------------previewBox-databank----------------------------------------------------------------*/
+/* Algemene desktop setup */
+.Database-preview {
+    display: flex;
+    margin: 2%;
+}
+
+.desktop-setup {
+    display: flex;
+
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    gap: 53px;
+    margin-left: 50%;
+    margin-top: -34%;
+    opacity: 0;
+}
+
+/* Monitor */
+.monitor {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background: #1e2a38;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(2deg, -8deg);
+    margin-bottom: 19%;
+}
+
+/* Monitor scherm */
+.screen {
+    width: 90%;
+    height: 80%;
+    background: #b0e0ff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.taskbalk {
+    border: 2px solid black;
+    width: 100%;
+    height: 5%;
+    margin-top: 50%;
+    display: flex;
+}
+
+.window {
+    border: 2px solid black;
+    width: 2%;
+    display: flex;
+    margin: 2px;
+    margin-left: 4%;
+}
+
+
+
+
+
+/* Toetsenbord */
+.keyboard {
+    width: 400px;
+    height: 60px;
+    background: #2d2d2d;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), 3px -3px 1px black;
+    opacity: 0;
+    transform: matrix3d(1, 0.03, 0, -0.0001, -0.1, 1, 0, 0.0003, 0, 0, 1, -0.002, 0, 0, 0, 1);
+}
+
+/* Muis */
+.mouse {
+    width: 60px;
+    height: 90px;
+    background: #333;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 115%;
+    margin-top: 10%;
+}
+
+
+
+/* File Cabinet Structure */
+.cabinet {
+    position: fixed;
+    width: 10%;
+    height: 52%;
+    background: #c2b8a3;
+    border: 3px solid #333;
+    box-shadow: -5px -4px 18px #C2B8A0, -4px -5px 2px black, -11px -11px 10px #C2B8A3, -10px -9px 2px black, -10px -11px 1px #c2b8a3, -16px -16px 2px black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 68%;
+    perspective: 801px;
+    transform: scale3d(1, 1, 1.5);
+}
+
+.drawer-top {
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 6%;
+    display: flex;
+    height: 18%;
+    box-shadow: -3px -2px 6px black;
+}
+
+.drawer-middle {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 18%;
+    margin-left: 6%;
+    margin-top: 55%;
+    box-shadow: -3px -2px 6px black;
+}
+
+.drawer-bottom {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 18%;
+    margin-left: 6%;
+    margin-top: 55%;
+    box-shadow: -3px -2px 6px black;
+}
+
+.handle {
+    width: 50%;
+    height: 6px;
+    background: #666;
+    border-radius: 3px;
+    margin-left: 24%;
+}
+
+/* File Cabinet Structure */
+
+.mousepointer {
+    border: 3px solid white;
+    position: fixed;
+}
+
+.found-it {
+    position: fixed;
+    ;
+    opacity: 0;
+    width: 80%;
+    background-color: white;
+    height: 63%;
+    display: inline-block;
+}
+
+.hotbar {
+    border: 2px solid black;
+    height: 10%;
+    display: flex;
+}
+
+.x {
+    display: unset;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 0%;
+    border: 2px solid;
+}
+
+.x p {
+    margin: 0;
+}
+
+.found-it-message {
+    border: 2px solid black;
+    justify-items: center;
+    height: 87%;
+    color: black;
+}
+
+.ok {
+    position: fixed;
+    border: 2px solid black;
+    margin-left: 67%;
+    margin-top: -5%;
+    color: black;
+}
+
+.ok p {
+    margin: 0;
+}
+
+.anuleren p {
+    margin: 0;
+}
+
+.anuleren {
+    color: black;
+    position: fixed;
+    border: 2px solid black;
+    margin-left: 56%;
+    margin-top: -5%;
+}
+
+.black-screen {
+    width: 90%;
+    border-radius: 1%;
+    height: 80%;
+    position: fixed;
+    color: black;
+    background: black;
+    opacity: 0;
+}
+
+/* Animation Keyframes */
+@keyframes namelater {
+    0% {}
+
+    100% {}
+}
+
+.database-design:hover~.desktop-setup {
+
+    animation: showDesktop 1s forwards ease;
+}
+
+.database-design:hover~.desktop-setup .black-screen {
+    animation: showscreen 1s forwards ease;
+}
+
+.database-design:hover~.desktop-setup .mousepointer {
+    animation: gotofile 0.7s forwards ease 1.6s;
+}
+
+.database-design:hover~.desktop-setup .found-it {
+    animation: showscreen01 0.5s forwards ease 2.25s;
+}
+
+.database-design:hover~.desktop-setup .keyboard {
+    animation: showKeyboard 0.5s forwards ease-in 1s;
+    /* Appears after 3s */
+}
+
+.database-design:hover~.desktop-setup .mouse {
+    animation: showMouse 0.7s forwards ease-in 1.5s;
+    /* Appears after 5s */
+}
+
+@keyframes showDesktop {
+    0% {
+        opacity: 0;
+        transform: rotate3d(3, 1, 1, 96deg);
+
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate3d(1, 1, 1, 1deg);
+    }
+}
+
+@keyframes showscreen {
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes showscreen01 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showKeyboard {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showMouse {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+        margin-left: 115%;
+        margin-top: 10%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 8%;
+        margin-top: 2%;
+
+    }
+}
+
+@keyframes gotofile {
+    0% {}
+
+
+
+    100% {
+        margin-left: -66%;
+        margin-top: -25%;
+    }
+}
+
+/*----------------------------------------CONTACTPAGE----------------------------------------------------------------*/
+.contact-section {
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: repeating-radial-gradient(black, transparent 100px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px greenyellow;
+    color: black;
+    max-width: 60%;
+    margin: auto;
+}
+
+.contact-info {
+    flex: 1;
+    font-size: 20px;
+    color: white;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    transform: scale(0.9);
+}
+
+.contact-container {
+    text-align: center;
+    padding: 30px;
+    background: #f0f0f0;
+}
+
+.contact-container iframe {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info p {
+    text-decoration: none;
+}
